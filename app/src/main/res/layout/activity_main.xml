@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="70dp"
+        android:textColor="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+    </TextView>
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableRow
+            android:layout_width="450dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button style="@style/bigbutton"  android:text="Q"></Button>
+
+            <Button style="@style/bigbutton" android:text="W"></Button>
+
+            <Button style="@style/bigbutton" android:text="E"></Button>
+
+            <Button style="@style/bigbutton" android:text="R"></Button>
+
+            <Button style="@style/bigbutton" android:text="T"></Button>
+
+            <Button style="@style/bigbutton" android:text="Y"></Button>
+
+            <Button style="@style/bigbutton" android:text="U"></Button>
+
+            <Button style="@style/bigbutton" android:text="I"></Button>
+
+            <Button style="@style/bigbutton" android:text="O"></Button>
+
+            <Button style="@style/bigbutton" android:text="P"></Button>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button style="@style/bigbutton" android:text="A"></Button>
+
+            <Button style="@style/bigbutton" android:text="S"></Button>
+
+            <Button style="@style/bigbutton" android:text="D"></Button>
+
+            <Button style="@style/bigbutton" android:text="F"></Button>
+
+            <Button style="@style/bigbutton" android:text="G"></Button>
+
+            <Button style="@style/bigbutton" android:text="H"></Button>
+
+            <Button style="@style/bigbutton" android:text="J"></Button>
+
+            <Button style="@style/bigbutton" android:text="K"></Button>
+
+            <Button style="@style/bigbutton" android:text="L"></Button>
+
+            <Button style="@style/bigbutton" android:text="Ñ"></Button>
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button style="@style/bigbutton" android:text="Z"></Button>
+
+            <Button style="@style/bigbutton" android:text="X"></Button>
+
+            <Button style="@style/bigbutton" android:text="C"></Button>
+
+            <Button style="@style/bigbutton" android:text="V"></Button>
+
+            <Button style="@style/bigbutton" android:text="B"></Button>
+
+            <Button style="@style/bigbutton" android:text="N"></Button>
+
+            <Button style="@style/bigbutton" android:text="M"></Button>
+
+            <Button style="@style/bigbutton" android:text=" "></Button>
+
+            <Button style="@style/bigbutton" android:text="&lt;"></Button>
+
+            <Button style="@style/bigbutton" android:text="XX"></Button>
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</LinearLayout>
